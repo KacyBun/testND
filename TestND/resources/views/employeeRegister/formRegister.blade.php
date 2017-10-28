@@ -68,14 +68,12 @@
                 }
             });
             function validar(valores,tipo){
-                resp = true;
+                var resp = true;
                 if(typeof valores==='object'){
                     var datos = mapear(valores,tipo);
                     Object.keys(datos).forEach(function (key) {
                         if(!validaarray(datos[key],key)){
-                            if(resp == true) {
                                 resp = false;
-                            }
                         }
                     });
 
@@ -108,24 +106,25 @@
                 }
             }
             function validaarray(dato,nombre){
+                var resp = false;
                 detalle={};
                 if (dato.length > 0){
+                    resp = true;
                     Object.keys(dato).forEach(function (key) {
                         if(dato[key]==""){
                             detalle.title='Revisar '+nombre;
                             detalle.text='un campo '+nombre+' esta vacio';
                             notificar(detalle);
-                            return false;
+                            resp = false;
                         }
                     });
-                    return true;
+
                 }else{
                 detalle.title='Revisar '+nombre;
                 detalle.text='Debe registrar '+nombre;
                 notificar(detalle);
-                return false;
                 }
-                return true;
+                return resp;
             }
         });
     });
