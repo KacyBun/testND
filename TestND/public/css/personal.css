@@ -1,0 +1,160 @@
+/*plantilla en general*/
+
+body.nav-md ul.nav.child_menu li:before {
+    background: #33b6a4;
+}
+
+body.nav-md ul.nav.child_menu li:after {
+    border-left: 1px solid #33b6a4;
+}
+
+.left_col {
+    background: #eb6a00;
+}
+
+.nav-sm ul.nav.child_menu {
+    background: #eb6a00;
+}
+
+body {
+    color: #33b6a5;
+    background: #eb6a00;
+
+}
+
+.nav_title {
+
+    /*background: #33b6a5 */
+    color: #ecf0f1;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 -1px 0;
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5b6479), color-stop(100%, #4c5566)), #686e78;
+    background: -webkit-linear-gradient(#33b6a4, #339583), #33806e;
+    background: -moz-linear-gradient(#33b6a4, #339583), #33806e;
+    background: -o-linear-gradient(#33b6a4, #339583), #33806e;
+    background: linear-gradient(#33b6a4, #339583), #33806e;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 1px 0, inset rgba(255, 255, 255, 0.16) 0 1px 0;
+    -moz-box-shadow: rgba(0, 0, 0, 0.25) 0 1px 0, inset rgba(255, 255, 255, 0.16) 0 1px 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 1px 0, inset rgba(255, 255, 255, 0.16) 0 1px 0;
+}
+
+.active a span.fa {
+    color: #eb6a00;
+}
+
+.nav.side-menu> li.active > a {
+    color: #0efff0;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 -1px 0;
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5b6479), color-stop(100%, #4c5566)), #686e78;
+    background: -webkit-linear-gradient(#33b6a4, #339583), #33806e;
+    background: -moz-linear-gradient(#33b6a4, #339583), #33806e;
+    background: -o-linear-gradient(#33b6a4, #339583), #33806e;
+    background: linear-gradient(#33b6a4, #339583), #33806e;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 1px 0, inset rgba(255, 255, 255, 0.16) 0 1px 0;
+    -moz-box-shadow: rgba(0, 0, 0, 0.25) 0 1px 0, inset rgba(255, 255, 255, 0.16) 0 1px 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 1px 0, inset rgba(255, 255, 255, 0.16) 0 1px 0;
+}
+
+.btn-seller {
+    color: #0efff0;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 -1px 0;
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5b6479), color-stop(100%, #4c5566)), #686e78;
+    background: -webkit-linear-gradient(#ff6b00, #eb6a00), #e06800;
+    background: -moz-linear-gradient(#ff6b00, #eb6a00), #e06800;
+    background: -o-linear-gradient(#ff6b00, #eb6a00), #e06800;
+    background: linear-gradient(#ff6b00, #eb6a00), #e06800;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 1px 0, inset rgba(255, 255, 255, 0.16) 0 1px 0;
+    -moz-box-shadow: rgba(0, 0, 0, 0.25) 0 1px 0, inset rgba(255, 255, 255, 0.16) 0 1px 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 1px 0, inset rgba(255, 255, 255, 0.16) 0 1px 0;
+}
+
+.nav.side-menu>li.active, .nav.side-menu>li.current-page {
+    border-right: 5px solid #0efff0;
+}
+
+.profile {
+    padding-bottom: 30% !important;
+}
+
+/*plantilla en general termina*/
+/*pagos checkout planes*/
+
+.pricing_features {
+    background: #ecf0f1;
+    padding: 20px 15px;
+    min-height: 100%;
+    font-size: 13.5px;
+}
+
+
+
+.invoice .row #plazosR .pricing:hover .x_content .pricing_features {
+    background: #32a997;
+    color: #ecf0f1;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,.5);
+    -webkit-transition: background-color 0.2s,box-shadow 0.2s;
+    -moz-transition: background-color 0.2s,box-shadow 0.2s;
+    -o-transition: background-color 0.2s,box-shadow 0.2s;
+    transition: background-color 0.2s,box-shadow 0.2s;
+}
+
+.invoice .row #plazosR .pricing:hover .x_content .pricing_footer {
+    background: #32a997;
+    color: #ecf0f1;
+    /*border: solid;*/
+    /*border-color: #eb6a00;*/
+    -webkit-transition: background-color 0.2s,border-color 0.2s, border-width 0.2s;
+    -moz-transition: background-color 0.2s,border-color 0.2s, border-width 0.2s;
+    -o-transition: background-color 0.2s,border-color 0.2s, border-width 0.2s;
+    transition: background-color 0.2s,border-color 0.2s, border-width 0.2s;
+}
+
+.invoice .row #plazosR .pricing:hover .title {
+    background: #ff6b00;
+    color: #ecf0f1;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,.5);
+    -webkit-transition: background-color 0.2s,box-shadow 0.2s;
+    -moz-transition: background-color 0.2s,box-shadow 0.2s;
+    -o-transition: background-color 0.2s,box-shadow 0.2s;
+    transition: background-color 0.2s,box-shadow 0.2s;
+}
+
+.pricing .x_content{
+    padding: 0 0px 6px;
+}
+
+/*pagos checkout planes termina*/
+
+.top_nav .dropdown-menu .read {
+    background-color: white;
+}
+
+ul.msg_list li.read  {
+    background: #ffffff;
+}
+
+/* notificaciones*/
+
+.x_content ul.msg_list li {
+    width: 99%!important;
+}
+
+.x_content ul.msg_list li a .image img {
+
+    width: 30%;
+}
+
+
+/* paginacion */
+
+.paginationjs-page .btn a, .btn a:active, .btn a:focus, .btn a:visited, .btn a:disabled   {
+    color: white; !important;
+}
+
+.paginationjs-prev .btn a, .btn a:active, .btn a:focus, .btn a:visited, .btn a:disabled  {
+    color: white; !important;
+}
+
+.paginationjs-next .btn a, .btn a:active, .btn a:focus, .btn a:visited, .btn a:disabled  {
+    color: white; !important;
+}
+
